@@ -25,7 +25,7 @@ I build native, local-first Mac apps. No accounts, no servers, no telemetry. If 
 
 ### Why `NaN`?
 
-`Not a Number` · `Nik at Night` · a couple more meanings that are just for me.
+`Not a Number` · `NikAtNight` · a couple more meanings that are just for me.
 
 ### Toolbox
 
