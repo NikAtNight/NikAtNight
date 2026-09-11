@@ -18,6 +18,7 @@ I build native, local-first Mac apps. No accounts, no servers, no telemetry. If 
 
 | | | |
 | --- | --- | --- |
+| 📜 **[Kleio](https://github.com/NikAtNight/kleio)** | Native Mac meeting recorder with local transcription, speaker review, optional screen recording, and library backups. Captures your microphone and app audio separately. | `SwiftUI` `WhisperKit` `ScreenCaptureKit` |
 | 📎 **[ClipShare](https://github.com/NikAtNight/clipshare)** | Private video sharing from the menu bar. Drop a clip, get a link, watch in any browser. The one with a server, because sharing needs one. Private bucket, links that die when I say so. | `Swift` `Cloudflare Workers` `R2` |
 | 🎙️ **[LocalFlow](https://github.com/NikAtNight/localflow)** | Fully local push-to-talk dictation. Hold a key, speak, and Whisper on the Neural Engine types it wherever you were. Audio never touches the network. | `Swift` `WhisperKit` `CoreML` |
 | 🃏 **[PatchDeck](https://github.com/NikAtNight/patchdeck)** | A desktop workbench for reviewing Git branches and directing AI agents. PR-style review without the pull request, read-only by design. | `Tauri 2` `Rust` `React` |
