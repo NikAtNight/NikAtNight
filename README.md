@@ -14,17 +14,23 @@
 
 I build native, local-first Mac apps. No accounts, no servers, no telemetry. If it can run locally, it should.
 
+Most of them ship under [Talix](https://talix.app), my one-person studio, so the code lives at [dev-talix](https://github.com/dev-talix).
+
 ### Things I've shipped
 
 | | | |
 | --- | --- | --- |
-| 📎 **[ClipShare](https://github.com/NikAtNight/clipshare)** | Private video sharing from the menu bar. Drop a clip, get a link, watch in any browser. The one with a server, because sharing needs one. Private bucket, links that die when I say so. | `Swift` `Cloudflare Workers` `R2` |
+| 📎 **[ClipShare](https://clips.talix.app)** | Private video sharing from the menu bar. Drop a clip, get a link, watch in any browser. The one with a server, because sharing needs one. Private bucket, links that die when I say so. | `Swift` `Cloudflare Workers` `R2` |
+| 🖐️ **[Conductor](https://github.com/dev-talix/conductor)** | Control your Mac with hand gestures through the webcam. Point to move, pinch to click and drag, fist to scroll, both hands to zoom. Frames never leave the machine. [conductor.talix.app](https://conductor.talix.app) | `Swift` `Vision` |
 | 🗂️ **[File Cleanup](https://github.com/NikAtNight/file-cleanup)** | Started as a morning script to clear the screenshots I take while building apps. Now a native Mac app with folder rules, daily schedules, and a preview before cleanup. Older matches go to Trash; newer ones can move to a folder. | `SwiftUI` `AppKit` |
-| 🌊 **[Flo](https://github.com/NikAtNight/flo)** | Fully local push-to-talk dictation. Hold a key, speak, and Whisper or Parakeet on the Neural Engine types it wherever you were. Audio never touches the network. | `Swift` `WhisperKit` `CoreML` |
-| 📜 **[Kleio](https://github.com/NikAtNight/kleio)** | Native Mac meeting recorder with local transcription, speaker review, optional screen recording, and library backups. Captures your microphone and app audio separately. | `SwiftUI` `WhisperKit` `ScreenCaptureKit` |
+| 🌊 **[Flo](https://github.com/dev-talix/flo)** | Fully local push-to-talk dictation. Hold a key, speak, and Whisper or Parakeet on the Neural Engine types it wherever you were. Audio never touches the network. [flo.talix.app](https://flo.talix.app) | `Swift` `WhisperKit` `CoreML` |
+| 📜 **[Kleio](https://github.com/dev-talix/kleio)** | Native Mac meeting recorder with local transcription, speaker review, optional screen recording, and library backups. Captures your microphone and app audio separately. [kleio.talix.app](https://kleio.talix.app) | `SwiftUI` `WhisperKit` `ScreenCaptureKit` |
 | 🃏 **[PatchDeck](https://github.com/NikAtNight/patchdeck)** | A desktop workbench for reviewing Git branches and directing AI agents. PR-style review without the pull request, read-only by design. | `Tauri 2` `Rust` `React` |
 | 🔒 **[PhotoVault](https://github.com/NikAtNight/photovault)** | Password-locked, encrypted local photo and video library. | `Tauri` `Rust` |
+| 🥇 **[Podium](https://github.com/NikAtNight/now-app)** | Todo app for iPhone and Mac that shows only the 3 things you should do next, ranked by deadline and priority. Everything else stays hidden until it matters. iCloud is the account. | `SwiftUI` `SwiftData` `CloudKit` |
 | 📟 **[PulseDeck](https://github.com/NikAtNight/pulsedeck)** | Menu bar monitor for dev machines: CPU, memory, ports, per-process energy, and which coding agents are running. | `SwiftUI` |
+| 🖼️ **[Reddit Grab](https://github.com/NikAtNight/reddit-grab)** | Chrome and Firefox extension that saves Reddit images, full galleries, GIFs, and videos with audio in one click, straight from the post header. | `TypeScript` `WebExtensions` |
+| 🔑 **[Stubs](https://github.com/dev-talix/stubs)** | Paste a `.env`, get a link that opens once. Encrypted before it leaves your machine, and the CLI can drop values into `.env.local` without an agent ever reading them. [stubs.talix.app](https://stubs.talix.app) | `TypeScript` `Cloudflare Workers` |
 
 ### Why `NaN`?
 
