@@ -1,36 +1,38 @@
 <div align="center">
 
-## `NaN`
+<img src="status.svg" alt="Status panel for Nikhil Kapadia: full-stack developer in Toronto" width="640">
 
-**Nikhil Kapadia** · full-stack developer · Toronto
-
-*Software for your machine, not the cloud.*
-
-<a href="https://www.linkedin.com/in/nikhilkapadia-/"><img src="https://img.shields.io/badge/LinkedIn-0a0d1f?style=flat-square&logo=linkedin&logoColor=67e8f9" alt="LinkedIn"></a>
-<a href="https://x.com/NikhilKapadia_"><img src="https://img.shields.io/badge/X-0a0d1f?style=flat-square&logo=x&logoColor=67e8f9" alt="X"></a>
-<a href="mailto:nikhil.kapadia.97@gmail.com"><img src="https://img.shields.io/badge/Email-0a0d1f?style=flat-square&logo=gmail&logoColor=67e8f9" alt="Email"></a>
+[LinkedIn](https://www.linkedin.com/in/nikhilkapadia-/) · [X](https://x.com/NikhilKapadia_) · [Email](mailto:nikhil.kapadia.97@gmail.com)
 
 </div>
 
-I build native, local-first Mac apps. No accounts, no servers, no telemetry. If it can run locally, it should.
+I build local-first Mac apps. Most run with no account and no server. The ones that need a server say so.
 
-Most of them ship under [Talix](https://talix.app), my one-person studio, so the code lives at [dev-talix](https://github.com/dev-talix).
+Most ship under [Talix](https://talix.app), my one-person studio. The code lives at [dev-talix](https://github.com/dev-talix).
 
-### Things I've shipped
+### Apps
 
-| | | |
-| --- | --- | --- |
-| 📎 **[ClipShare](https://clips.talix.app)** | Private video sharing from the menu bar. Drop a clip, get a link, watch in any browser. The one with a server, because sharing needs one. Private bucket, links that die when I say so. | `Swift` `Cloudflare Workers` `R2` |
-| 🖐️ **[Conductor](https://github.com/dev-talix/conductor)** | Control your Mac with hand gestures through the webcam. Point to move, pinch to click and drag, fist to scroll, both hands to zoom. Frames never leave the machine. [conductor.talix.app](https://conductor.talix.app) | `Swift` `Vision` |
-| 🗂️ **[File Cleanup](https://github.com/NikAtNight/file-cleanup)** | Started as a morning script to clear the screenshots I take while building apps. Now a native Mac app with folder rules, daily schedules, and a preview before cleanup. Older matches go to Trash; newer ones can move to a folder. | `SwiftUI` `AppKit` |
-| 🌊 **[Flo](https://github.com/dev-talix/flo)** | Fully local push-to-talk dictation. Hold a key, speak, and Whisper or Parakeet on the Neural Engine types it wherever you were. Audio never touches the network. [flo.talix.app](https://flo.talix.app) | `Swift` `WhisperKit` `CoreML` |
-| 📜 **[Kleio](https://github.com/dev-talix/kleio)** | Native Mac meeting recorder with local transcription, speaker review, optional screen recording, and library backups. Captures your microphone and app audio separately. [kleio.talix.app](https://kleio.talix.app) | `SwiftUI` `WhisperKit` `ScreenCaptureKit` |
-| 🃏 **[PatchDeck](https://github.com/NikAtNight/patchdeck)** | A desktop workbench for reviewing Git branches and directing AI agents. PR-style review without the pull request, read-only by design. | `Tauri 2` `Rust` `React` |
-| 🔒 **[PhotoVault](https://github.com/NikAtNight/photovault)** | Password-locked, encrypted local photo and video library. | `Tauri` `Rust` |
-| 🥇 **[Podium](https://github.com/NikAtNight/now-app)** | Todo app for iPhone and Mac that shows only the 3 things you should do next, ranked by deadline and priority. Everything else stays hidden until it matters. iCloud is the account. | `SwiftUI` `SwiftData` `CloudKit` |
-| 📟 **[PulseDeck](https://github.com/NikAtNight/pulsedeck)** | Menu bar monitor for dev machines: CPU, memory, ports, per-process energy, and which coding agents are running. | `SwiftUI` |
-| 🖼️ **[Reddit Grab](https://github.com/NikAtNight/reddit-grab)** | Chrome and Firefox extension that saves Reddit images, full galleries, GIFs, and videos with audio in one click, straight from the post header. | `TypeScript` `WebExtensions` |
-| 🔑 **[Stubs](https://github.com/dev-talix/stubs)** | Paste a `.env`, get a link that opens once. Encrypted before it leaves your machine, and the CLI can drop values into `.env.local` without an agent ever reading them. [stubs.talix.app](https://stubs.talix.app) | `TypeScript` `Cloudflare Workers` |
+- [Flo](https://flo.talix.app) is push-to-talk dictation that runs on the Mac. Hold a key, speak, and it types into whatever app has focus. Audio never touches the network.
+- [Kleio](https://kleio.talix.app) is a meeting recorder with local transcription, speaker review, and optional screen recording.
+- [Conductor](https://conductor.talix.app) controls your Mac with hand gestures from the webcam. Camera frames never leave the machine.
+- [Rivals](https://joinrivals.app) is for iPhone and Apple Watch. Race your friends live, wherever they are. Everyone starts at the same moment on their own streets and sees each other's pace and gap in real time.
+- [Podium](https://github.com/NikAtNight/now-app) is a todo app for iPhone and Mac. It shows only the 3 things to do next, ranked by deadline and priority.
+- [PhotoVault](https://github.com/NikAtNight/photovault) is a password-locked, encrypted local photo and video library.
+- [PulseDeck](https://pulsedeck.talix.app) is a menu bar monitor for dev machines. It shows CPU, memory, ports, per-process energy, and which coding agents are running.
+- [File Cleanup](https://github.com/NikAtNight/file-cleanup) clears the screenshots I take while building apps. It has folder rules, daily schedules, and a preview before cleanup.
+
+### Web products
+
+- [OpenTab](https://opentab.talix.app) is time tracking and invoicing for agencies and studios, with a desktop timer.
+- [ClipShare](https://clips.talix.app) is private video sharing from the menu bar. Drop a clip, get a link, and watch it in any browser. It is the one with a server, because sharing needs one.
+- [Stubs](https://stubs.talix.app) turns a `.env` file into a link that opens once. Values are encrypted before they leave your machine.
+
+### Developer tools
+
+- [PatchDeck](https://patchdeck.talix.app) is a local-first desktop workbench for reviewing Git branches and directing AI agents.
+- [pi-extensions](https://github.com/NikAtNight/pi-extensions) holds my extensions for the pi coding agent.
+
+More, including older work, is at [nikhilkapadia.pages.dev](https://nikhilkapadia.pages.dev).
 
 ### Why `NaN`?
 
