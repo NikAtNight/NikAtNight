@@ -1,36 +1,37 @@
-<div align="center">
+## Nikhil Kapadia
 
-<img src="status.svg" alt="Status panel for Nikhil Kapadia: full-stack developer in Toronto" width="640">
-
-[LinkedIn](https://www.linkedin.com/in/nikhilkapadia-/) · [X](https://x.com/NikhilKapadia_) · [Email](mailto:nikhil.kapadia.97@gmail.com)
-
-</div>
+Full-stack developer · Toronto
 
 I build local-first Mac apps. Most run with no account and no server. The ones that need a server say so.
 
 Most ship under [Talix](https://talix.app), my one-person studio. The code lives at [dev-talix](https://github.com/dev-talix).
 
-### Apps
+### [OpenTab](https://opentab.talix.app)
 
-- [Flo](https://flo.talix.app) is push-to-talk dictation that runs on the Mac. Hold a key, speak, and it types into whatever app has focus. Audio never touches the network.
-- [Kleio](https://kleio.talix.app) is a meeting recorder with local transcription, speaker review, and optional screen recording.
-- [Conductor](https://conductor.talix.app) controls your Mac with hand gestures from the webcam. Camera frames never leave the machine.
-- [Rivals](https://joinrivals.app) is for iPhone and Apple Watch. Race your friends live, wherever they are. Everyone starts at the same moment on their own streets and sees each other's pace and gap in real time.
-- [Podium](https://github.com/NikAtNight/now-app) is a todo app for iPhone and Mac. It shows only the 3 things to do next, ranked by deadline and priority.
-- [PhotoVault](https://github.com/NikAtNight/photovault) is a password-locked, encrypted local photo and video library.
-- [PulseDeck](https://pulsedeck.talix.app) is a menu bar monitor for dev machines. It shows CPU, memory, ports, per-process energy, and which coding agents are running.
-- [File Cleanup](https://github.com/NikAtNight/file-cleanup) clears the screenshots I take while building apps. It has folder rules, daily schedules, and a preview before cleanup.
+Time tracking and invoicing for agencies and studios, with a desktop timer.
 
-### Web products
+### [Stubs](https://stubs.talix.app)
 
-- [OpenTab](https://opentab.talix.app) is time tracking and invoicing for agencies and studios, with a desktop timer.
-- [ClipShare](https://clips.talix.app) is private video sharing from the menu bar. Drop a clip, get a link, and watch it in any browser. It is the one with a server, because sharing needs one.
-- [Stubs](https://stubs.talix.app) turns a `.env` file into a link that opens once. Values are encrypted before they leave your machine.
+Paste a `.env` file and get a link that opens once. Values are encrypted before they leave your machine. The CLI can drop them into `.env.local` without an agent ever reading them.
 
-### Developer tools
+### [Rivals](https://joinrivals.app)
 
-- [PatchDeck](https://patchdeck.talix.app) is a local-first desktop workbench for reviewing Git branches and directing AI agents.
-- [pi-extensions](https://github.com/NikAtNight/pi-extensions) holds my extensions for the pi coding agent.
+Race your friends live, wherever they are, on iPhone and Apple Watch. Everyone starts at the same moment on their own streets and sees each other's pace and gap in real time.
+
+### Other apps
+
+| App | Type | What it does |
+| --- | --- | --- |
+| [Flo](https://flo.talix.app) | Mac | Push-to-talk dictation, fully on the Mac. |
+| [Kleio](https://kleio.talix.app) | Mac | Meeting recorder with local transcription. |
+| [Conductor](https://conductor.talix.app) | Mac | Control your Mac with hand gestures. |
+| [PulseDeck](https://pulsedeck.talix.app) | Mac | Menu bar monitor for CPU, memory, ports, and agents. |
+| [PatchDeck](https://patchdeck.talix.app) | Mac | Review Git branches and direct AI agents. |
+| [PhotoVault](https://github.com/NikAtNight/photovault) | Mac | Password-locked, encrypted photo and video library. |
+| [File Cleanup](https://github.com/NikAtNight/file-cleanup) | Mac | Clears the screenshots I take while building apps. |
+| [ClipShare](https://clips.talix.app) | Mac | Private video sharing from the menu bar. |
+| [Podium](https://github.com/NikAtNight/now-app) | iPhone, Mac | A todo list that shows only the 3 things to do next. |
+| [pi-extensions](https://github.com/NikAtNight/pi-extensions) | Dev tool | My extensions for the pi coding agent. |
 
 More, including older work, is at [nikhilkapadia.pages.dev](https://nikhilkapadia.pages.dev).
 
