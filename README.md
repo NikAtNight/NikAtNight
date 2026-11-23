@@ -18,6 +18,10 @@ Paste a `.env` file and get a link that opens once. Values are encrypted before 
 
 Race your friends live, wherever they are, on iPhone and Apple Watch. Everyone starts at the same moment on their own streets and sees each other's pace and gap in real time.
 
+### [Grimoire](https://grimoire.talix.app)
+
+Persistent AI agents for your Mac, called familiars. Each one has a name, a face, a workspace folder, and a memory, and runs on Codex or Claude. Chain them into spells and run them on a schedule.
+
 ### Other apps
 
 | App | Type | What it does |
